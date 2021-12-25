@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <header class="nav-container">
+            <nav>
+                    <a class="nav-action" href="/index.html">Home</a>
+                    <a class="nav-action" href="/settings.html">Settings</a>
+                    <a class="nav-action" href="/about.html">About</a>
+
+            </nav>
+    </header>
+    <main class="main-container">
+        <section class="main-mode">
+            <button class="pomodoro-button">Pomodoro</button>
+            <button class="pomodoro-button">Short break</button>
+            <button class="pomodoro-button">Long break</button>
+        </section>
+        <section class="main-timer">
+            <p class="pomodoro-time" id="pomodoro-time">25:00</p>
+        </section>
+        <div class="main-buttons">
+            <button class="pomodoro-button" type="submit" id="btn-start" value="start">Start</button>
+            <!-- <button class="pomodoro-button" type="submit" id="btn-stop" value="stop">Stop</button> -->
+        </div>
+        <!-- <button class="pomodoro-button" type="submit" id="btn-reset" value="reset">Reset</button> -->
+    </main>
+    <footer class="main-footer">
+        <span>Developed by <a href="https://www.github.com/thalesouza" target="_blank">Thales</a></span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
