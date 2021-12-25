@@ -16,32 +16,35 @@
     <title>Pomodoro</title>
 </head>
 <body>
-    <header class="nav-container">
+    <!-- <header class="nav-container">
             <nav>
                     <a class="nav-action" href="/index.html">Home</a>
                     <a class="nav-action" href="/settings.html">Settings</a>
                     <a class="nav-action" href="/about.html">About</a>
 
             </nav>
-    </header>
+    </header> -->
     <main class="main-container">
-        <section class="main-mode">
-            <button class="pomodoro-button">Pomodoro</button>
-            <button class="pomodoro-button">Short break</button>
-            <button class="pomodoro-button">Long break</button>
+        <section class="main-mode" id="mode-btn">
+            <button class="pomodoro-button" id="pomodoro-button">Pomodoro</button>
+            <button class="pomodoro-button" id="pomodoro-short">Short break</button>
+            <button class="pomodoro-button" id="pomodoro-long">Long break</button>
         </section>
         <section class="main-timer">
             <p class="pomodoro-time" id="pomodoro-time">25:00</p>
         </section>
         <div class="main-buttons">
-            <button class="pomodoro-button" type="submit" id="btn-start" value="start">Start</button>
-            <!-- <button class="pomodoro-button" type="submit" id="btn-stop" value="stop">Stop</button> -->
+            <button class="pomodoro-button" type="submit" id="btn-start" value="start">Start</button> -->
         </div>
-        <!-- <button class="pomodoro-button" type="submit" id="btn-reset" value="reset">Reset</button> -->
     </main>
     <footer class="main-footer">
         <span>Developed by <a href="https://www.github.com/thalesouza" target="_blank">Thales</a></span>
     </footer>
+    <div class="hidden">
+        <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
+        <audio src="break.mp3" data-sound="shortBreak"></audio>
+        <audio src="break.mp3" data-sound="longBreak"></audio>
+      </div
     <script src="js/script.js"></script>
 </body>
 </html>
