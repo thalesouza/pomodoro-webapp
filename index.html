@@ -31,20 +31,24 @@
             <button class="pomodoro-button" id="pomodoro-long">Long break</button>
         </section>
         <section class="main-timer">
-            <p class="pomodoro-time" id="pomodoro-time">25:00</p>
+            <!-- <p class="pomodoro-time" id="pomodoro-time">25:00</p> -->
+            <span class="pomodoro-time" id="pomodoro-minute">25</span>
+            <span class="pomodoro-time" id="pomodoro-mark">:</span>
+            <span class="pomodoro-time" id="pomodoro-seconds">00</span>
         </section>
         <div class="main-buttons">
-            <button class="pomodoro-button" type="submit" id="btn-start" value="start">Start</button> -->
+            <button class="pomodoro-button" type="submit" id="btn-start" value="start">Start</button>
+            <button class="pomodoro-button" type="submit" id="btn-stop" value="stop">Stop</button>
         </div>
     </main>
     <footer class="main-footer">
         <span>Developed by <a href="https://www.github.com/thalesouza" target="_blank">Thales</a></span>
     </footer>
     <div class="hidden">
-        <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
+        <audio src="pomodoro.mp3" data-sound="pomodoro"></audio>
         <audio src="break.mp3" data-sound="shortBreak"></audio>
         <audio src="break.mp3" data-sound="longBreak"></audio>
-      </div
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
