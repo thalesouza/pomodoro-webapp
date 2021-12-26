@@ -2,34 +2,6 @@ body {
     font-family: 'Poppins';
 }
 
-/* .nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: rgb(54, 54, 54);
-    padding: 20px 30px;
-}
-
-.nav-action {
-    text-decoration: none;
-    display: inline-block;
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 1.5rem;
-    margin-left: 50px;
-    font-weight: 1000;
-    transition: all 0.4s;
-}
-
-.nav-action::before {
-    content: "";
-    display: inline-block;
-}
-
-.nav-action:hover{
-    color: #892CDC;
-} */
-
 .main-container {
     width: 100%;
     height: 110%;
@@ -68,7 +40,6 @@ body {
     width: auto;
 }
 
-
 .main-mode .pomodoro-button{
     background-color: black;
     border: 1px solid white;
@@ -95,10 +66,6 @@ body {
     font-size: 30px;
     text-transform: uppercase;
 }
-
-/* .pomodoro-button:last-child{
-    font-size: 20px;
-} */
 
 .pomodoro-button:hover{
     background-color: #BC6FF1;
@@ -129,7 +96,7 @@ body {
 
 
 /* settings css */
-
+/* 
 .main-setting{
     display: flex;
     justify-content: center;
@@ -150,26 +117,26 @@ body {
     color: white;
     background: transparent;
     transition: border-color 0.3s;
-}
+} */
 
 /* Chrome, Safari, Edge, Opera */
-.pomodoro-setting::-webkit-outer-spin-button,
+/* .pomodoro-setting::-webkit-outer-spin-button,
 .pomodoro-setting::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+} */
 
-/* Firefox */
+/* Firefox
 .pomodoro-setting[type=number] {
   -moz-appearance: textfield;
-}
+} */
 
-.formLabel {
+/* .formLabel {
     position: relative;
     top: 0;
     display: block;
     transition: 0.3s;
-}
+} */
 
 
 @media all{
